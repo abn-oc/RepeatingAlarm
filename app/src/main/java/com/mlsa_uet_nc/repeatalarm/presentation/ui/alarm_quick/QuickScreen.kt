@@ -14,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.commandiron.wheel_picker_compose.WheelTimePicker
 import com.mlsa_uet_nc.repeatalarm.R
 
 @Composable
@@ -28,6 +29,7 @@ fun QuickScreen() {
             verticalArrangement = Arrangement.Center, // Align items vertically in the center
             horizontalAlignment = Alignment.CenterHorizontally // Center items horizontally
         ) {
+            WheelTimePicker { snappedTime -> }
             ElevatedButton(onClick = {}) {
                 Text("Start Timer")
             }

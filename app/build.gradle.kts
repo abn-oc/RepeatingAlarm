@@ -68,4 +68,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation("androidx.navigation:navigation-compose:2.8.3")
+    implementation("com.github.commandiron:WheelPickerCompose:1.1.11")
 }
